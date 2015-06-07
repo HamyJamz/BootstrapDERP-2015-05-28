@@ -6,6 +6,7 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+   padding-top: 50px;
 }
 
 .footer {
@@ -15,4 +16,11 @@ body {
   /* Set the fixed height of the footer here */
   height: 60px;
   background-color: azure;
+}
+
+
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
 }

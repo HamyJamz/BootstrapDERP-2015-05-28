@@ -8,6 +8,9 @@ body {
   margin-bottom: 60px;
    padding-top: 50px;
 }
+img{
+    box-shadow: 1px 1px 3px black;
+}
 
 .footer {
   position: absolute;
@@ -15,12 +18,15 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 60px;
-  background-color: azure;
+
 }
 
-
+#aboutMeColumns{
+  background-color:#AA0000;
+}
 
 .starter-template {
   padding: 40px 15px;
   text-align: center;
 }
+

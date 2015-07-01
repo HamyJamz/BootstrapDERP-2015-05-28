@@ -1,32 +1,86 @@
-html {
+html body {
   position: relative;
   min-height: 200%;
-}
-
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-   padding-top: 50px;
-}
-img{
-    box-shadow: 1px 1px 3px black;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+  text-shadow: 5px 5px 1px rgba(0,0,0,0.05);
 
 }
 
-#aboutMeColumns{
- /* background-color:#AA0000;*/
+a:link {
+    text-decoration: none;
 }
 
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+a:visited {
+    text-decoration: none;
 }
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+img {
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+    vertical-align: bottom;
+}
+h1{
+    background-color:yellowgreen;
+}
+
+.row {
+    padding-top:6vh;
+}
+
+#cover {
+    min-height:100%;
+    height: 90vh;
+    width: 100vw;
+
+    background-color: yellowgreen;
+
+    text-align: center;
+    color: white;
+    padding-top:15%;
+}
+
+#nameText{
+
+}
+
+#chevron{
+    width: 100vw;
+    text-align: center;
+}
+
+
+#footer{
+    width: 100vw;
+    background-color: yellowgreen;
+    text-align: center;
+    color: white;
+    padding: 2.5vh;
+}
+
+#cover .glyphicon {
+    color: white;
+}
+
+.glyphicon{
+    font-size: 100px;
+    color: yellowgreen;
+}
+
+.infoCard {
+    align:center;
+}
+
+.infoCardTitle {
+    color:yellowgreen;
+    font-size: 25px;
+}
+
+
+
 
